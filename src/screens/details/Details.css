@@ -1,0 +1,50 @@
+.right-details{
+    width: 60%;    
+    padding: 20px;
+    text-align: left;
+}
+
+.left-details {
+    width: 30%;    
+    padding: 20px;
+    text-align: left;
+}
+  
+.details {
+    text-align: left;
+}
+
+.restaurant-details {    
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items-left-details {
+    width: 47%;    
+    padding: 20px;
+    text-align: left;
+}
+
+.item-details {
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: flex;    
+}
+
+.items-right-details {
+    width: 47%;    
+    padding: 20px;
+    text-align: left;
+}
+
+.restaurant-details-section {    
+    flex-wrap: wrap;    
+    display: flex;
+    background: lightgray;
+    flex-direction: row;
+}
+
+.MuiBadge-anchorOriginTopRightRectangle.MuiBadge-invisible {
+    transform : scale(1) translate(50%, -50%) !important;
+}
